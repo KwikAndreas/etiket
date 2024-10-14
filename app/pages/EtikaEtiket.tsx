@@ -4,8 +4,10 @@ const EtikaEtiket = () => {
       id="1"
       className="p-6 my-4 bg-white dark:bg-gray-700 shadow rounded-lg pt-1"
     >
-      <h1 className="text-lg font-semibold mb-2 text-center mt-2">Etika & Etiket</h1>
-      <ul className="list-disc pl-4">
+      <h1 className="text-lg font-semibold mb-2 text-center mt-2">
+        Etika & Etiket
+      </h1>
+      <ul className="list-disc pl-4 space-y-2">
         <li>
           <strong>Etika (Moral) : </strong> nilai-nilai dan norma-norma moral
           yang menjadi pegangan dalam mengatur perilaku – Bertens

@@ -7,7 +7,7 @@ const KodeEtik = () => {
       <h1 className="text-lg font-semibold mb-2 text-center mt-2">
         Kode Etik Profesi
       </h1>
-      <ul className="list-disc pl-4">
+      <ul className="list-disc pl-4 space-y-2">
         <li>
           <strong>Bertens : </strong> norma yang telah diterapkan dan diterima
           oleh kelompok profesi dan untuk mengarahkan atau memeberi petunjuk
