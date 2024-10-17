@@ -9,7 +9,7 @@ const EtikaEtiket = () => {
       </h1>
       <ul className="list-disc pl-4 space-y-2">
         <li>
-          <strong>Definis Etika </strong> adalah Berdasarkan persetujuan
+          <strong>Definis Etiket </strong> adalah Berdasarkan persetujuan
           bersama, tata cara yang mengatur perilaku yang dianggap sopan dalam
           pergaulan. Berguna untuk menyenangkan orang lain, tidak menyinggung
           orang lain, menjaga hubungan baik
