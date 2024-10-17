@@ -15,7 +15,7 @@ const BrandingGrooming = () => {
         </li>
         <li>
           <strong>Pentingnya Personal Branding</strong>
-          <ul className="list-decimal pl-4">
+          <ul className="list-decimal pl-6">
             <li>Profesionalisme</li>
             <li>Intelligence</li>
             <li>Kreadibilitas</li>
@@ -74,7 +74,7 @@ const BrandingGrooming = () => {
           </ul>
         </li>
         <li>
-          <strong>Tips Grooming Wanitaw</strong>
+          <strong>Tips Grooming Wanita</strong>
           <ul className="list-decimal pl-4">
             <li>
               Rambut:
@@ -106,7 +106,7 @@ const BrandingGrooming = () => {
           <strong>Tata Rias Wajah & Rambut Presenter TV </strong>
           <ul className="list-decimal pl-4">
             <li>
-              HIGHIGHTING dengan menggunakan warna sedikit lebih muda dari rona
+              HIGHLIGHTING dengan menggunakan warna sedikit lebih muda dari rona
               dasar kulit wajah untuk menonjolkan pipi yang cekung akan terlihat
               chubby.
             </li>
