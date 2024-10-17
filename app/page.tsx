@@ -10,7 +10,7 @@ import TableManner from "./pages/TableManner";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white  transition duration-500">
+    <div className="relative min-h-screen bg-gray-100 dark:bg-gradient-to-b dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-gray-900 dark:text-white transition duration-500 overflow-hidden">
       <Navbar />
       <div className="pt-16">
         <ButtonBar />

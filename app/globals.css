@@ -32,3 +32,43 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes moveRandom {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100px, -50px);
+  }
+  50% {
+    transform: translate(-100px, 100px);
+  }
+  75% {
+    transform: translate(50px, -100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.blur-circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  filter: blur(80px);
+  animation: moveRandom 10s infinite ease-in-out;
+}
+
+.blur-circle.delay-200 {
+  animation-delay: 2s;
+}
+
+.blur-circle.delay-400 {
+  animation-delay: 4s;
+}
+
+.blur-circle.delay-600 {
+  animation-delay: 6s;
+}
