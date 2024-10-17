@@ -15,7 +15,7 @@ const BrandingGrooming = () => {
         </li>
         <li>
           <strong>Pentingnya Personal Branding</strong>
-          <ul className="list-decimal pl-6">
+          <ul className="list-decimal pl-8">
             <li>Profesionalisme</li>
             <li>Intelligence</li>
             <li>Kreadibilitas</li>

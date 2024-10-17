@@ -46,7 +46,7 @@ const EtikaEtiket = () => {
 
           <ul className="list-disc pl-4">
             <li>
-              MCOMMITMENT – Biemers harus memiliki janji untuk terus membangun
+              COMMITMENT – Biemers harus memiliki janji untuk terus membangun
               hubungan sosial yang baik dan memberikan pekerjaan yang terbaik.
             </li>
             <li>

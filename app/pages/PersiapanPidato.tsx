@@ -9,7 +9,7 @@ const PersiapanPidato = () => {
       </h1>
       <ul className="list-disc pl-4 space-y-2">
         <li>
-          <strong>Definisi Pidato </strong> adalah Kegiatan berbicra di depan
+          <strong>Definisi Pidato </strong> adalah Kegiatan berbicara di depan
           umum / berorasi agar dapat menyatakan pendapatnya
         </li>
         <li>
