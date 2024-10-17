@@ -15,7 +15,7 @@ const TableManner = () => {
             kursi yang disediakan. Duduk dengan tegak. Simpan barang bawaan
             pribadi di belakang kursi. Ambil serbet yang sudah tersedia dan
             letakkan di pangkuan. Jika jamuan diadakan dirumah seseorang, tunggu
-            tuan rumah menyantap makanan pertama kali.
+            tuan rumah menyantap makanan pertama kali
           </p>
         </li>
         <li>
@@ -30,11 +30,11 @@ const TableManner = () => {
         <li>
           <strong>Main Course:</strong>
           <p>
-            Masuk dari sebelah kanan kursi dan bergerak ke kiri sampai duduk di
-            kursi yang disediakan. Duduk dengan tegak. Simpan barang bawaan
-            pribadi di belakang kursi. Ambil serbet yang sudah tersedia dan
-            letakkan di pangkuan. Jika jamuan diadakan dirumah seseorang, tunggu
-            tuan rumah menyantap makanan pertama kali.
+            Biasanya disajikan daging / ikan. Untuk makanan daging / ikan, garpu
+            harus selalu menghadap kebawah, tapi kalo mau menyuap nasi atau
+            makanan lain, boleh menyuap dengan garpu menghadap keatas. Selesai
+            makan, garpu diletakkan di sebelah kiri pisau secara berdampingan,
+            bagian tajam pisau menghadap kedalam
           </p>
         </li>
         <li>
