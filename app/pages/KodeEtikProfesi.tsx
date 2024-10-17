@@ -1,7 +1,7 @@
 const KodeEtik = () => {
   return (
     <div
-      id="2"
+      id="3"
       className="p-6 my-4 bg-white dark:bg-gray-700 shadow rounded-lg"
     >
       <h1 className="text-lg font-semibold mb-2 text-center mt-2">
@@ -9,72 +9,55 @@ const KodeEtik = () => {
       </h1>
       <ul className="list-disc pl-4 space-y-2">
         <li>
-          <strong>Bertens : </strong> norma yang telah diterapkan dan diterima
-          oleh kelompok profesi dan untuk mengarahkan atau memeberi petunjuk
-          kepada anggotanya,{" "}
-          <strong className="text-red-600 dark:text-red-400">
-            bagaimana “seharusnya”(das sollen)
-          </strong>
-        </li>
-        <li>
-          <strong>Kode etik : </strong> perumusan norma moral yang menjadi
-          <strong className="text-red-600 dark:text-red-400">
-            tolak ukur atau acuan
-          </strong>
-          bagi kode perilaku kelompok profesi bersangkutan
+          <strong>Kode Etik Profesi (Das Sollen, Das Sein) </strong>
+          <p>Das Sollen : apa yang harus dilakukan</p>
+          <p>
+            Das Sein : merupakan keadaan yang nyata atau peristiwa konkret yang
+            terjadi di masyarakat
+          </p>
         </li>
         <li>
           <strong>Tujuan Kode Etik Profesi : </strong>
 
-          <ul className="list-disc pl-4">
+          <ul className="list-decimal pl-6">
             <li>Menjunjung tinggi martabat profesi</li>
-            <li>Menjaga dan memelihara kesejahteraan anggota</li>
-            <li>Meningkatkan pengabdian para anggota profesi</li>
+            <li>Memelihara kesejahteraan para anggota</li>
             <li>Meningkatkan mutu profesi</li>
-            <li>Meningkatkan mutu organisasi profesi</li>
             <li>Meningkatkan layanan di atas keuntungan pribadi </li>
-            <li>
-              Mempunyai organisasi profesional yang kuat dan terjalin erat{" "}
-            </li>
-            <li>Menentukan baku standarnya sendiri</li>
           </ul>
         </li>
         <li>
           <strong>Fungsi Kode Etik Profesi : </strong>
 
-          <ul className="list-disc pl-4">
+          <ul className="list-decimal pl-6">
+            <li>Memberikan pedoman bagi setiap anggota profesi </li>
+            <li>Sebagai sarana kontrol sosial bagi masyarakat</li>
             <li>
-              Memberikan pedoman bagi tiap anggota tentang prinsip
-              profesionalitas yang digariskan
-            </li>
-            <li>
-              Sarana kontrol sosial bagi masyarakat atas profesi yang
-              bersangkutan
-            </li>
-            <li>
-              Mencegah campur tangan pihak di luar organisasi profesi tentang
-              hubungan etika dalam keanggotaan profesi
+              Mencegah campur tangan pihak di luar organisasi
+              profesiMeningkatkan mutu profesi
             </li>
           </ul>
         </li>
         <li>
           <strong>Kode Etik Jurnalistik : </strong>
 
-          <ul className="list-disc pl-4">
-            <li> Etika profesi wartawan</li>
+          <ul className="list-decimal pl-4">
+            <li>Harus terdapat kebebasan dalam pekerjaan</li>
+            <li>Harus ada keterikatan dengan pekerjaan</li>
+            <li>Harus ada keahlian</li>
             <li>
-              Pekerjaan disebut profesi jika memiliki 4 hal berikut (Dr.
-              Lakshamana Rao) :
-              <ul className="list-decimal pl-4">
-                <li>Harus terdapat kebebasan dalam pekerjaan </li>
-                <li>Harus ada panggilan dan keterikatan dengan pekerjaan</li>
-                <li>Harus ada keahlian (expertise)</li>
-                <li>
-                  Harus ada tanggung jawab yang terikat pada kode etik pekerjaan
-                  (Assegaf)
-                </li>
-              </ul>
+              Harus ada tanggung jawab yang terikat pada kode etik pekerjaan
             </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Kode Etik Public Relations : </strong>
+
+          <ul className="list-decimal pl-4">
+            <li>Komunikator yang baik</li>
+            <li>Integritas sebagai landasan utama</li>
+            <li>Rasa hormat kepada sesama manusia</li>
+            <li>Berdedikasi dalam menjalankan profesi</li>
           </ul>
         </li>
       </ul>

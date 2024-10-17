@@ -6,6 +6,7 @@ import KodeEtik from "./pages/KodeEtikProfesi";
 import PublicSpeaking from "./pages/PublicSpeaking";
 import PersiapanPidato from "./pages/PersiapanPidato";
 import BrandingGrooming from "./pages/Branding_Grooming";
+import TableManner from "./pages/TableManner";
 
 export default function Home() {
   return (
@@ -14,11 +15,12 @@ export default function Home() {
       <div className="pt-16">
         <ButtonBar />
         <div className="container mx-auto p-4">
-          <EtikaEtiket/>
-          <KodeEtik/>
-          <PublicSpeaking/>
-          <PersiapanPidato/>
-          <BrandingGrooming/>
+          <EtikaEtiket />
+          <TableManner />
+          <KodeEtik />
+          <PublicSpeaking />
+          <PersiapanPidato />
+          <BrandingGrooming />
           <Footers />
         </div>
       </div>

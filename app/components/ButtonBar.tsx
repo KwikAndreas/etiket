@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,7 +10,10 @@ const ButtonBar = () => {
   const scrollToQuestion = (questionId: string) => {
     const element = document.getElementById(questionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const yOffset = -80;
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
     }
   };
 
@@ -20,7 +23,6 @@ const ButtonBar = () => {
 
   return (
     <div>
-      {/* Toggle Button for Mobile */}
       <button
         onClick={toggleVisibility}
         className="fixed bottom-4 right-4 bg-blue-500 text-white p-3 rounded-full shadow-lg z-50 md:hidden"
@@ -28,7 +30,6 @@ const ButtonBar = () => {
         <FontAwesomeIcon icon={isVisible ? faTimes : faBars} />
       </button>
 
-      {/* ButtonBar */}
       <div
         className={`fixed top-1/2 right-4 bg-gray-200 dark:bg-gray-500 space-y-2 p-4 rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out z-40 ${
           isVisible ? "translate-x-0 flex" : "translate-x-full hidden"
