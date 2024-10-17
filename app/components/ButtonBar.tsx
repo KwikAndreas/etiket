@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -35,7 +35,7 @@ const ButtonBar = () => {
           isVisible ? "translate-x-0 flex" : "translate-x-full hidden"
         } flex-col -translate-y-1/2 md:translate-x-0 md:flex md:flex-col md:space-y-2`}
       >
-        {[1, 2, 3, 4, 5].map((num) => (
+        {[1, 2, 3, 4, 5, 6].map((num) => (
           <button
             key={num}
             onClick={() => scrollToQuestion(`${num}`)}
