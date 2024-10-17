@@ -34,7 +34,7 @@ const KodeEtik = () => {
             <li>Sebagai sarana kontrol sosial bagi masyarakat</li>
             <li>
               Mencegah campur tangan pihak di luar organisasi
-              profesiMeningkatkan mutu profesi
+              profesi
             </li>
           </ul>
         </li>

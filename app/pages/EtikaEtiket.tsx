@@ -77,7 +77,7 @@ const EtikaEtiket = () => {
             </li>
             <li>
               Etiket : suatu aturan moral yang berlaku di dalam berkehidupan
-              sosial, biasanya terbentuk karean faktor budaya, agama, negara dan
+              sosial, biasanya terbentuk karena faktor budaya, agama, negara dan
               sebagainya
             </li>
           </ul>
