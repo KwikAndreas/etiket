@@ -26,7 +26,7 @@ const PublicSpeaking = () => {
         </li>
         <li>
           <strong>Elemen dalam Public Speaking</strong>
-          <Image src="/static/elemen_public_speaking.png" alt="Gambar element public speaking" width={600} height={120}/>
+          <Image src="/static/elemen_public_speaking.png" alt="Gambar element public speaking" width={960} height={120}/>
         </li>
       </ul>
     </div>
